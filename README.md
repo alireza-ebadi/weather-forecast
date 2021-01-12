@@ -9,19 +9,19 @@
   -The time series temperature and percipiation data for 210 US cities are downloaded from the [Carnegie Mellon University database](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488)
   -The notebook is segregated into 3 chapters:
     1. Chapter 1: Load and work with a sample dataset
-      1.1. Load modules and libraries and set parameters
-      1.2. Load city IDs and show a sample city
-      1.3. Clean and Resample data
-      1.4. Decompose yearly weather data into: 1-seasonal, 2-trend, and 3-residual components. 
-      1.5. Find parameters for the forecast model: Seasonal Arima (Sarima): (p, d, q)x(P, D, Q, m) 
-      1.6. Create the model with the determined parameters 
-      1.7. Forecast data using the model
+      1. Load modules and libraries and set parameters
+      2. Load city IDs and show a sample city
+      3. Clean and Resample data
+      4. Decompose yearly weather data into: 1-seasonal, 2-trend, and 3-residual components. 
+      5. Find parameters for the forecast model: Seasonal Arima (Sarima): (p, d, q)x(P, D, Q, m) 
+      6. Create the model with the determined parameters 
+      7. Forecast data using the model
     2. Chapter 2: Load all cities, fit model and predict data for 2020-2070
-      2.1: Define a function to load data, fit model and save results 
+      1: Define a function to load data, fit model and save results 
     3. Chapter 3: Take info from user and find the best match
-      3.1. Load saved forecast data
-      3.2. Accept city, state and date from user 
-      3.3. Find the best match
+      1. Load saved forecast data
+      2. Accept city, state and date from user 
+      3. Find the best match
         
 2. Weather-Forecast.ipynb:
   -This notebook is the standalone version of the chapter 3 of the weather_forecast_development.ipynb
