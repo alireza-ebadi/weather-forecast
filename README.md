@@ -4,7 +4,7 @@
 ###The best match is determined using the normalized temperature and percipitation residuals. The yearly average temperature and percipiation of the city assigned by the user in the future are compared to the 2020 data of all 210 US cities (inlcuding the assigned city itself) and a residual is calculated for each parameter. The temperature and percipitation residuals are then normalized by their annual mean and then the average of the two is computed. One of the calculated residulas (temperature, percipitation) or the average of the two is used to determine the closest match: The city in 2020 with the smallest residual is selected as the matching city, i.e. the assigned city (by the user) in the future will have similar temperature and percipitation to the matching city in 2020.
 
 **Available Files:**
-1. Weather_Forecast_Development.ipynb: 
+- Weather_Forecast_Development.ipynb: 
   -This notebook examines data (percipitation and temperature) from a sample city to determine the necessary actions and parameters required to read and process data; and develop a model to forecast trends.
   -The time series temperature and percipiation data for 210 US cities are downloaded from the [Carnegie Mellon University database](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488)
   -The notebook is segregated into 3 chapters:
@@ -23,25 +23,25 @@
       2. Accept city, state and date from user 
       3. Find the best match
         
-2. Weather-Forecast.ipynb:
+- Weather-Forecast.ipynb:
   -This notebook is the standalone version of the chapter 3 of the weather_forecast_development.ipynb
     
-3. city_info_recent_all.csv
+- city_info_recent_all.csv
   -Contains the information of the 210 US cities
     
-4. usa-states-census-2014.shp and usa-states-census-2014.shx
+- usa-states-census-2014.shp and usa-states-census-2014.shx
     Shapefile shape format, contains the actual geometry data of the US states
     
-5. forecast_2020_2070.h5
+- forecast_2020_2070.h5
     Contains the predicted temperature and percipitation for 210 US cities from 2020 to 2070
     
-6. US_map folder:
+- US_map folder:
   -Contains the Shapefile shape format of the US states
   
-7. us_cities_Temp_prcp folder:
+- us_cities_Temp_prcp folder:
   -Conatins the historical time series data of all 210 US cities
   
-8. environment.yml:
+- environment.yml:
   -The environment file necessary to recreate the python environment (python 3.6)
     
 **DISCLAIMER**
