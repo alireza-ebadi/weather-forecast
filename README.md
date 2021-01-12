@@ -46,8 +46,8 @@ The yearly average temperature and percipiation of the city assigned by the user
 7. us_cities_Temp_prcp folder:
   -Conatins the historical time series data of all 210 US cities
   
-8. environment.yml:
-  -The environment file necessary to recreate the python environment (python 3.6)
+8. environment.yml and requirements.txt:
+  -The environment files necessary to recreate the python environment (python 3.6)
     
 **DISCLAIMER**
 1. The forecasting model parameters are determined by analyzing a sample city data and may not be suitable for all 201 US cities. One could develop a model for each city individually.
