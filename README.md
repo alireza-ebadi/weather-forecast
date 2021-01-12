@@ -40,10 +40,10 @@ The yearly average temperature and percipiation of the city assigned by the user
 5. forecast_2020_2070.h5
     Contains the predicted temperature and percipitation for 210 US cities from 2020 to 2070
     
-6. US_map.zip:
+6. US_map folder:
   -Contains the Shapefile shape format of the US states
   
-7. us_cities_Temp_prcp.zip:
+7. us_cities_Temp_prcp folder:
   -Conatins the historical time series data of all 210 US cities
   
 8. environment.yml:
