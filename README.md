@@ -1,8 +1,8 @@
 # weather-forecast
 
-##This project is developed to predict the weather trend in 210 major US cities for the next 50 years  and find their match with current climate conditions.
+## This project is developed to predict the weather trend in 210 major US cities for the next 50 years  and find their match with current climate conditions.
 
-###The best match is determined using the normalized temperature and percipitation residuals. 
+### The best match is determined using the normalized temperature and percipitation residuals. 
 
 The yearly average temperature and percipiation of the city assigned by the user in the future are compared to the 2020 data of all 210 US cities (inlcuding the assigned city itself) and a residual is calculated for each parameter. The temperature and percipitation residuals are then normalized by their annual mean and then the average of the two is computed. One of the calculated residulas (temperature, percipitation) or the average of the two is used to determine the closest match: The city in 2020 with the smallest residual is selected as the matching city, i.e. the assigned city (by the user) in the future will have similar temperature and percipitation to the matching city in 2020.
 
@@ -12,7 +12,6 @@ The yearly average temperature and percipiation of the city assigned by the user
   -The time series temperature and percipiation data for 210 US cities are downloaded from the [Carnegie Mellon University database](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488)
   -The notebook is segregated into 3 chapters:
     1. Chapter 1: Load and work with a sample dataset
-    
       1. Load modules and libraries and set parameters
       2. Load city IDs and show a sample city
       3. Clean and Resample data
@@ -21,12 +20,10 @@ The yearly average temperature and percipiation of the city assigned by the user
       6. Create the model with the determined parameters 
       7. Forecast data using the model
       
-    2. Chapter 2: Load all cities, fit model and predict data for 2020-2070
-    
-      1: Define a function to load data, fit model and save results 
+    2. Chapter 2: Load all cities, fit model and predict data for 2020-2070  
+      1. Define a function to load data, fit model and save results 
       
-    3. Chapter 3: Take info from user and find the best match
-   
+    3. Chapter 3: Take info from user and find the best match 
       1. Load saved forecast data
       2. Accept city, state and date from user 
       3. Find the best match
