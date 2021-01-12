@@ -7,7 +7,7 @@
 The yearly average temperature and percipiation of the city assigned by the user in the future are compared to the 2020 data of all 210 US cities (inlcuding the assigned city itself) and a residual is calculated for each parameter. The temperature and percipitation residuals are then normalized by their annual mean and then the average of the two is computed. One of the calculated residulas (temperature, percipitation) or the average of the two is used to determine the closest match: The city in 2020 with the smallest residual is selected as the matching city, i.e. the assigned city (by the user) in the future will have similar temperature and percipitation to the matching city in 2020.
 
 **Available Files:**
-- Weather_Forecast_Development.ipynb: 
+1. Weather_Forecast_Development.ipynb: 
   -This notebook examines data (percipitation and temperature) from a sample city to determine the necessary actions and parameters required to read and process data; and develop a model to forecast trends.
   -The time series temperature and percipiation data for 210 US cities are downloaded from the [Carnegie Mellon University database](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488)
   -The notebook is segregated into 3 chapters:
