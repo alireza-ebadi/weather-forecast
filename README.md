@@ -52,7 +52,8 @@ The yearly average temperature and percipiation of the city assigned by the user
 **DISCLAIMER**
 1. The forecasting model parameters are determined by analyzing a sample city data and may not be suitable for all 201 US cities. One could develop a model for each city individually.
 2. Taking the average of the normalized residuals of the two parameters (temperature and percipitation) might not be the best approach to consider the effect of the both parameters.
-3. Due to the small trend of the data, the model may not find a match other than the assigned city itself for the near future. 
-4. Due to the low density of cities in the west and significant change of data between them, the model may not find a match other than the assigned city itself.
-5. Due to the limitation of the data to the US main land, the model may not find a match other than the assigned city itself should it be close to the border (especially the southern border).
+3. As evident from the seasonal decomposition, the percipitation is less reliable to utilize in the forecast model. Therefore, I suggest using mainly the temperature.
+4. Due to the small trend of the data, the model may not find a match other than the assigned city itself for the near future. 
+5. Due to the low density of cities in the west and significant change of data between them, the model may not find a match other than the assigned city itself.
+6. Due to the limitation of the data to the US main land, the model may not find a match other than the assigned city itself should it be close to the border (especially the southern border).
     
