@@ -4,6 +4,8 @@
 
 ### The best match is determined using the normalized temperature and percipitation residuals. 
 
+![](images/Boston_Massachusetts_2070.png?raw=true)
+
 The yearly average temperature and percipiation of the city assigned by the user in the future are compared to the 2020 data of all 210 US cities (inlcuding the assigned city itself) and a residual is calculated for each parameter. The temperature and percipitation residuals are then normalized by their annual mean and then the average of the two is computed. One of the calculated residulas (temperature, percipitation) or the average of the two is used to determine the closest match: The city in 2020 with the smallest residual is selected as the matching city, i.e. the assigned city (by the user) in the future will have similar temperature and percipitation to the matching city in 2020.
 
 **Available Files:**
