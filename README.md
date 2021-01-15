@@ -2,7 +2,7 @@
 
 ## This project is developed to predict the weather trend in 210 major US cities for the next 50 years  and find their match with current climate conditions.
 
-### The best match is determined using the normalized temperature and percipitation residuals. A sample city is provided below. One can run the code to get the results for any of the avilable 210 US cities.
+### The best match is determined using the normalized temperature and percipitation residuals. A sample city is provided below. One can run the [notebook](weather-forecast.ipynb) to get the results for any of the avilable 210 US cities.
 
 ![Sample](Boston_Massachusetts_2070.png?raw=true)
 
