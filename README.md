@@ -33,7 +33,7 @@ The yearly average temperature and percipiation of the city assigned by the user
 2. [weather-forecast.ipynb](weather-forecast.ipynb):
   -This notebook is the standalone version of the chapter 3 of the weather_forecast_development.ipynb
     
-3. [city_info_recent_all.csv]
+3. [city_info_recent_all.csv](city_info_recent_all.csv)
   -Contains the information of the 210 US cities
     
 4. usa-states-census-2014.shp and usa-states-census-2014.shx
@@ -48,7 +48,7 @@ The yearly average temperature and percipiation of the city assigned by the user
 7. us_cities_Temp_prcp folder:
   -Conatins the historical time series data of all 210 US cities
   
-8. environment.yml and requirements.txt:
+8. [environment.yml](environment.yml) and [requirements.txt](requirements.txt):
   -The environment files necessary to recreate the python environment (python 3.6)
     
 **DISCLAIMER**
